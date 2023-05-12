@@ -1,0 +1,43 @@
+.home {
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    align-items: center;
+
+    .home-img {
+        img {
+            max-width: 100%;
+            width: 600px;
+            height: auto;
+        }
+    }
+
+    .home-text {
+        h1 {
+            font-size: $big-font;
+            color: $main-color;
+        }
+
+        h2 {
+            font-size: $h2-font;
+            margin: 1rem 0 2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: $main-color;
+            color: #fff;
+            border-radius: 0.5rem;
+
+            &:hover {
+                transform: scale(1.1) translateY(5px);
+                transition: .4s;
+            }
+        }
+    }
+     
+
+}

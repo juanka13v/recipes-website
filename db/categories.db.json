@@ -1,0 +1,72 @@
+[
+    {
+      "name": "Comida vegetariana",
+      "description": "La comida vegetariana se refiere a la dieta que se basa principalmente en alimentos de origen vegetal y excluye la carne y los productos de origen animal. Esta categoría incluye platos como ensaladas, sopas, guisos, pastas, pizzas, hamburguesas y más, todos preparados sin carne. La comida vegetariana es una excelente opción para aquellos que buscan una alimentación más saludable y sostenible.",
+      "image": "https://placeimg.com/640/480/tech",
+      "recipes": ["615c68e3d4c8f15bca81f83f", "615c68e3d4c8f15bca81f840"],
+      "createdAt": "2021-10-05T10:00:00.000Z"
+    },
+    {
+      "name": "Comida vegana",
+      "description": "La comida vegana es una forma de alimentación que excluye todos los productos de origen animal, incluyendo carne, huevos, productos lácteos y miel. Esta categoría incluye platos como ensaladas, sopas, guisos, pastas, pizzas, hamburguesas y más, todos preparados sin ingredientes de origen animal. La comida vegana es una excelente opción para aquellos que buscan una alimentación más saludable, ética y sostenible.",
+      "image": "https://example.com/comida-vegana.jpg",
+      "recipes": ["615c68e3d4c8f15bca81f841", "615c68e3d4c8f15bca81f842"],
+      "createdAt": "2021-10-06T11:30:00.000Z"
+    },
+    {
+      "name": "Comida rápida",
+      "description": "La comida rápida es un tipo de comida que se prepara y se sirve rápidamente en establecimientos como restaurantes de comida rápida, puestos de comida y camiones de comida. Esta categoría incluye platos como hamburguesas, papas fritas, pollo frito, tacos, pizzas y más. Aunque a menudo se asocia con la comida poco saludable, también se pueden encontrar opciones más saludables en algunos establecimientos de comida rápida.",
+      "image": "https://example.com/comida-rapida.jpg",
+      "recipes": ["615c68e3d4c8f15bca81f843", "615c68e3d4c8f15bca81f844"],
+      "createdAt": "2021-10-07T13:00:00.000Z"
+    },
+    {
+      "name": "Comida casera",
+      "description": "La comida casera es aquella que se prepara en casa, ya sea para la familia o para amigos. Esta categoría incluye platos como guisos, sopas, arroces, pastas, asados y más. La comida casera se caracteriza por ser fresca, nutritiva y económica, y a menudo se hace con ingredientes locales y de temporada. Además, cocinar en casa puede ser una actividad divertida y relajante para muchas personas.",
+      "image": "https://example.com/comida-casera.jpg",
+      "recipes": ["615c68e3d4c8f15bca81f845", "615c68e3d4c8f15bca81f846"],
+      "createdAt": "2021-10-08T15:30:00.000Z"
+    },
+    {
+      "name": "Comida italiana",
+      "description": "La comida italiana es una de las más populares del mundo, conocida por su sabor rico y su variedad de platos. Esta categoría incluye platos como pasta, pizza, risotto, lasaña, tiramisú y más. La comida italiana se caracteriza por el uso de ingredientes frescos y sencillos, como tomates, aceite de oliva, ajo y hierbas. Además, la comida italiana es una excelente opción para aquellos que buscan opciones vegetarianas y veganas.",
+      "image": "https://example.com/comida-italiana.jpg",
+      "recipes": ["615c68e3d4c8f15bca81f847", "615c68e3d4c8f15bca81f848"],
+      "createdAt": "2021-10-09T18:00:00.000Z"
+    },
+    {
+      "name": "Comida mexicana",
+      "description": "La comida mexicana es conocida por su sabor picante y su variedad de ingredientes y platos. Esta categoría incluye platos como tacos, enchiladas, burritos, guacamole, chiles rellenos y más. La comida mexicana se caracteriza por el uso de ingredientes como chiles, maíz, frijoles, aguacate y cilantro. Además, la comida mexicana es una excelente opción para aquellos que buscan opciones vegetarianas y veganas.",
+      "image": "https://example.com/comida-mexicana.jpg",
+      "recipes": ["615c68e3d4c8f15bca81f849", "615c68e3d4c8f15bca81f84a"],
+      "createdAt": "2021-10-10T20:30:00.000Z"
+    },
+    {
+      "name": "Comida asiática",
+      "description": "La comida asiática es conocida por su sabor intenso y su variedad de ingredientes y platos. Esta categoría incluye platos como sushi, ramen, pad thai, pho, curry y más. La comida asiática se caracteriza por el uso de ingredientes como arroz, fideos, tofu, verduras y especias. Además, la comida asiática es una excelente opción para aquellos que buscan opciones vegetarianas y veganas.",
+      "image": "https://example.com/comida-asiatica.jpg",
+      "recipes": ["615c68e3d4c8f15bca81f84b", "615c68e3d4c8f15bca81f84c"],
+      "createdAt": "2021-10-11T23:00:00.000Z"
+    },
+    {
+      "name": "Comida española",
+      "description": "La comida española es conocida por su sabor rico y su variedad de platos regionales. Esta categoría incluye platos como paella, tortilla española, gazpacho, tapas y más. La comida española se caracteriza por el uso de ingredientes frescos y simples, como aceite de oliva, ajo y especias. Además, la comida españolaes una excelente opción para aquellos que buscan opciones vegetarianas y veganas, con platos como la tortilla española de patatas sin huevo.",
+      "image": "https://example.com/comida-espanola.jpg",
+      "recipes": ["615c68e3d4c8f15bca81f84d", "615c68e3d4c8f15bca81f84e"],
+      "createdAt": "2021-10-12T12:45:00.000Z"
+    },
+    {
+      "name": "Comida libanesa",
+      "description": "La comida libanesa es conocida por su sabor fresco y su variedad de mezze (pequeños platillos). Esta categoría incluye platos como falafel, hummus, tabbouleh, shawarma y más. La comida libanesa se caracteriza por el uso de ingredientes frescos y saludables, como verduras, legumbres y especias. Además, la comida libanesa es una excelente opción para aquellos que buscan opciones vegetarianas y veganas.",
+      "image": "https://example.com/comida-libanesa.jpg",
+      "recipes": ["615c68e3d4c8f15bca81f84f", "615c68e3d4c8f15bca81f850"],
+      "createdAt": "2021-10-13T16:15:00.000Z"
+    },
+    {
+      "name": "Comida india",
+      "description": "La comida india es conocida por su sabor intenso y su variedad de especias y platos regionales. Esta categoría incluye platos como curry, samosas, naan, biryani y más. La comida india se caracteriza por el uso de ingredientes frescos y especias, como cilantro, comino, cúrcuma y cardamomo. Además, la comida india es una excelente opción para aquellos que buscan opciones vegetarianas y veganas.",
+      "image": "https://example.com/comida-india.jpg",
+      "recipes": ["615c68e3d4c8f15bca81f851", "615c68e3d4c8f15bca81f852"],
+      "createdAt": "2021-10-14T19:45:00.000Z"
+    }
+  ]
