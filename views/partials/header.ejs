@@ -1,10 +1,41 @@
-<header>
-  <h1>Header</h1>
-  
+<header class="header">
+  <div class="logo">
+    <a href="#">
+      <h1>Foot<span>Mood</span></h1>
+    </a>
+  </div>
 
-  <button class="btn disable">btn</button>
-  <button class="btn dark">btn</button>
-  <button class="btn dark disable">btn</button>
-  <button class="btn dark large">btn</button>
+  <div class="btn-hamburguer">
+    <i class="bx bx-menu-alt-right" id="btn-menu"></i>
+  </div>
 
+  <ul class="navbar">
+    <li><a href="/">Home</a></li>
+    <li><a href="/">Recipes</a></li>
+    <li><a href="/">Countries</a></li>
+    <li><a href="/">Categories</a></li>
+  </ul>
+
+  <div class="form">
+    <input type="text" placeholder="Search" />
+    <i class="bx bx-search-alt-2"></i>
+  </div>
 </header>
+
+<script>
+  let isOpen = false;
+  const btnMenu = document.getElementById("btn-menu");
+  const navbar = document.querySelector(".navbar")
+
+  btnMenu.addEventListener("click", (e) => {
+    navbar.classList.toggle("active")
+    if (!isOpen) {
+      btnMenu.classList.replace("bx-menu-alt-right", "bx-x");
+      isOpen = true;
+      return;
+    }
+
+    btnMenu.classList.replace("bx-x", "bx-menu-alt-right");
+    isOpen = false;
+  });
+</script>
