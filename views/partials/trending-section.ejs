@@ -1,4 +1,25 @@
 <section class="trending__section">
-    <div class="trending"></div>
-    <div class="trending__list"></div>
+    <div class="trending">
+        <img src="<%= trending[0].image %>" alt="<%= trending[0].name %>">
+        <div class="content">
+            <span class="chip dark"><a href="#"><%= trending[0].category %></a></span>
+            <h3><%= trending[0].name %></h3>
+            <p><%= trending[0].description %></p>
+        </div>
+    </div>
+    <div class="trending__list">
+        <h3 class="title">News & Trending</h3>
+
+        <% trending.forEach(recipe => { %>
+            <div class="card">
+                <figure class="card__img">
+                    <img src="<%= recipe.image %>" alt="">
+                </figure>
+                <div class="card__body">
+                    <h3><%= recipe.name %></h3>
+                    <p><%= recipe.description %></p>
+                </div>
+            </div>
+        <% }) %>
+    </div>
 </section>

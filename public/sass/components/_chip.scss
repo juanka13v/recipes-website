@@ -1,0 +1,16 @@
+span.chip {
+    a {
+        padding: 6px 12px;
+        font-size: 14px;
+        font-weight: 300;
+        border-radius: 32px;
+        color: $light-gray;
+        background: $purple;
+    }
+
+    &.dark {
+        a {
+            background: $dark-gray;
+        }
+    }
+}

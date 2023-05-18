@@ -5,9 +5,12 @@
 @import "init";
 
 // Importa todos tus archivos y componentes aquí
+@import "components/button";
+@import "components/chip";
+
+
 @import "components/header";
 @import "components/footer";
-@import "components/button";
 @import "components/trending";
 
 // @media (min-width: 480px) {
