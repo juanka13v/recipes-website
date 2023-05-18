@@ -16,6 +16,7 @@ const app = express();
 
 // connect to MongoDB
 const connectDB = require("./db/connect");
+const { log } = require("console");
 
 // Templating Engine
 app.set("views", __dirname + "/views");
@@ -30,7 +31,9 @@ app.use(express.static(path.join(__dirname, "/public")));
 
 // routes
 app.get("/", (req, res) => {
-    res.render("index", {title:"recipes"})
+    const trending = require("./db/recipes.db.json").slice(0, 4)
+
+    res.render("index", {title:"recipes", trending})
 });
 
 
