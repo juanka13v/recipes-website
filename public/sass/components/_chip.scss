@@ -4,12 +4,13 @@ span.chip {
         font-size: 14px;
         font-weight: 300;
         border-radius: 32px;
-        color: $light-gray;
+        color: $white;
         background: $purple;
     }
 
     &.dark {
         a {
+            color: $light-gray;
             background: $dark-gray;
         }
     }
