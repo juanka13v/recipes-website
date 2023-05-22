@@ -1,0 +1,38 @@
+.title__container {
+    max-width: 1440px;
+    margin: 2rem auto;
+    margin-bottom: 0;
+    padding: 0 2rem;
+
+    @media (max-width: 768px) {
+        padding: 0 1rem;
+    }
+
+    .title {
+        border-left: 4px solid $purple;
+        padding-left: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width: 768px) {
+            padding-left: .5rem;
+        }
+
+
+        h3 {
+            color: $white;
+            font-size: 24px;
+            font-weight: 400;
+
+            @media (max-width: 768px) {
+                font-size: 22px;
+            }
+
+            @media (max-width: 578px) {
+                font-size: 18px;
+            }
+        }
+
+    }
+}

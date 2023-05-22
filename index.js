@@ -32,8 +32,10 @@ app.use(express.static(path.join(__dirname, "/public")));
 // routes
 app.get("/", (req, res) => {
     const trending = require("./db/recipes.db.json").slice(0, 4)
+    const recipes = require("./db/recipes.db.json")
+    const categories = require("./db/categories.db.json").slice(0,9)
 
-    res.render("index", {title:"recipes", trending})
+    res.render("index", {title:"recipes", trending, recipes, categories})
 });
 
 

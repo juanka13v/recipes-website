@@ -1,0 +1,53 @@
+<section class="container__slider">
+  <div class="glide custom-glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+  
+        <% categories.forEach(category => { %>
+         <li class="glide__slide">
+          <a href="#" class="slide-content" style="background-color: <%= category.color %>;">
+            <i class='<%= category.icon %>'></i>
+            <h3><%= category.name %></h3>
+            <p><%= category.recipes.length %> - recipes</p>
+          </a>
+         </li>
+        <% }) %>
+       
+      </ul>
+    </div>   
+    <div class="glide__bullets" data-glide-el="controls[nav]">
+
+      <% categories.forEach((category, index) => { %>
+        <button class="glide__bullet" data-glide-dir="=<%= index %>"></button>
+      <% }) %>
+    </div>
+
+    <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+      <i class='bx bxs-chevrons-left' ></i>
+    </button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+      <i class='bx bxs-chevrons-right'></i>
+    </button>
+  </div>
+  </div>
+
+  
+
+</section>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    new Glide('.glide', {
+      type: 'carousel',
+      perView: 5,
+      breakpoints: {
+        990: {perView: 4},
+        768: {perView: 3},
+        576: {perView: 2}
+      }
+      // Otras opciones de configuración aquí
+    }).mount();
+  });
+</script>
