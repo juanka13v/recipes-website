@@ -1,5 +1,7 @@
-<section class="container__slider">
-  <div class="glide custom-glide">
+<%- include('title', {titleText: "Categories most liked."}) %>
+
+<section class="container__slider--categories">
+  <div class="glide custom-glide--categories">
     <div class="glide__track" data-glide-el="track">
       <ul class="glide__slides">
   
@@ -39,7 +41,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    new Glide('.glide', {
+    new Glide('.custom-glide--categories', {
       type: 'carousel',
       perView: 5,
       breakpoints: {

@@ -368,7 +368,7 @@ span.chip.dark a {
           font-size: 14px;
           font-weight: 300; }
 
-.container__slider {
+.container__slider--categories {
   max-width: 1440px;
   margin: 3rem auto;
   margin-top: 1rem;
@@ -376,22 +376,22 @@ span.chip.dark a {
   border-radius: 12px;
   padding: 2rem 3rem; }
   @media (max-width: 1440px) {
-    .container__slider {
+    .container__slider--categories {
       margin: 3rem 2rem;
       margin-top: 1rem; } }
   @media (max-width: 768px) {
-    .container__slider {
+    .container__slider--categories {
       padding: 2rem;
       margin: 3rem 1rem;
       margin-top: 1rem; } }
   @media (max-width: 576px) {
-    .container__slider {
+    .container__slider--categories {
       padding: 2rem 1rem;
       margin-top: 1rem; } }
-  .container__slider .custom-glide {
+  .container__slider--categories .custom-glide--categories {
     width: 100%;
     margin: 0 auto; }
-    .container__slider .custom-glide .glide__slides .glide__slide .slide-content {
+    .container__slider--categories .custom-glide--categories .glide__slides .glide__slide .slide-content {
       width: 100%;
       height: 160px;
       display: flex;
@@ -401,39 +401,121 @@ span.chip.dark a {
       color: #333;
       padding: 20px;
       border-radius: 12px;
-      font-size: 18px; }
-      .container__slider .custom-glide .glide__slides .glide__slide .slide-content:hover {
+      font-size: 18px;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)); }
+      .container__slider--categories .custom-glide--categories .glide__slides .glide__slide .slide-content:hover {
         filter: brightness(115%); }
-      .container__slider .custom-glide .glide__slides .glide__slide .slide-content i {
+      .container__slider--categories .custom-glide--categories .glide__slides .glide__slide .slide-content i {
         color: #ffffff;
         font-size: 30px;
         margin-bottom: auto;
         align-self: end;
         text-shadow: 1px 1px 2px black; }
-      .container__slider .custom-glide .glide__slides .glide__slide .slide-content h3 {
+      .container__slider--categories .custom-glide--categories .glide__slides .glide__slide .slide-content h3 {
         color: #ffffff;
         font-size: 18px;
         font-weight: 400;
         text-shadow: 1px 1px 2px black; }
-      .container__slider .custom-glide .glide__slides .glide__slide .slide-content p {
+      .container__slider--categories .custom-glide--categories .glide__slides .glide__slide .slide-content p {
         color: #ffffff;
         font-size: 14px;
         text-shadow: 1px 1px 2px black; }
-    .container__slider .custom-glide .glide__bullets {
+    .container__slider--categories .custom-glide--categories .glide__bullets {
       bottom: -1.5rem; }
     @media (max-width: 576px) {
-      .container__slider .custom-glide .glide__arrows {
+      .container__slider--categories .custom-glide--categories .glide__arrows {
         display: none; } }
-    .container__slider .custom-glide .glide__arrows .glide__arrow {
+    .container__slider--categories .custom-glide--categories .glide__arrows .glide__arrow {
       border-radius: 50%;
       background-color: #0e0e0e;
       padding: 5px; }
-      .container__slider .custom-glide .glide__arrows .glide__arrow i {
+      .container__slider--categories .custom-glide--categories .glide__arrows .glide__arrow i {
         color: #ffffff;
         font-size: 20px; }
-    .container__slider .custom-glide .glide__arrows .glide__arrow--left {
+    .container__slider--categories .custom-glide--categories .glide__arrows .glide__arrow--left {
       left: -2.5rem; }
-    .container__slider .custom-glide .glide__arrows .glide__arrow--right {
+    .container__slider--categories .custom-glide--categories .glide__arrows .glide__arrow--right {
+      right: -2.5rem; }
+
+.container__slider--recipes {
+  max-width: 1440px;
+  margin: 3rem auto;
+  margin-top: 1rem;
+  background: #232326;
+  border-radius: 12px;
+  padding: 2rem 3rem; }
+  @media (max-width: 1440px) {
+    .container__slider--recipes {
+      margin: 3rem 2rem;
+      margin-top: 1rem; } }
+  @media (max-width: 768px) {
+    .container__slider--recipes {
+      padding: 2rem;
+      margin: 3rem 1rem;
+      margin-top: 1rem; } }
+  @media (max-width: 576px) {
+    .container__slider--recipes {
+      padding: 2rem 1rem;
+      margin-top: 1rem; } }
+  .container__slider--recipes .custom-glide--recipes {
+    width: 100%;
+    margin: 0 auto; }
+    .container__slider--recipes .custom-glide--recipes .glide__slides .glide__slide .slide-content {
+      position: relative;
+      width: 100%;
+      height: 160px;
+      display: flex;
+      color: #ffffff;
+      border-radius: 12px;
+      font-size: 18px;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), black); }
+      .container__slider--recipes .custom-glide--recipes .glide__slides .glide__slide .slide-content .text {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+        gap: 10px; }
+        .container__slider--recipes .custom-glide--recipes .glide__slides .glide__slide .slide-content .text h3 {
+          width: 100%;
+          font-size: 20px;
+          font-weight: 400;
+          color: #ffffff;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }
+        .container__slider--recipes .custom-glide--recipes .glide__slides .glide__slide .slide-content .text p {
+          width: 100%;
+          font-size: 14px;
+          font-weight: 200;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis; }
+      .container__slider--recipes .custom-glide--recipes .glide__slides .glide__slide .slide-content img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        z-index: -99;
+        object-fit: cover;
+        pointer-events: none; }
+    .container__slider--recipes .custom-glide--recipes .glide__bullets {
+      bottom: -1.5rem; }
+    @media (max-width: 576px) {
+      .container__slider--recipes .custom-glide--recipes .glide__arrows {
+        display: none; } }
+    .container__slider--recipes .custom-glide--recipes .glide__arrows .glide__arrow {
+      border-radius: 50%;
+      background-color: #0e0e0e;
+      padding: 5px; }
+      .container__slider--recipes .custom-glide--recipes .glide__arrows .glide__arrow i {
+        color: #ffffff;
+        font-size: 20px; }
+    .container__slider--recipes .custom-glide--recipes .glide__arrows .glide__arrow--left {
+      left: -2.5rem; }
+    .container__slider--recipes .custom-glide--recipes .glide__arrows .glide__arrow--right {
       right: -2.5rem; }
 
 .title__container {
