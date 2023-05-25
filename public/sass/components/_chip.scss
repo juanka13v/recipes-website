@@ -1,17 +1,24 @@
 span.chip {
+    width: fit-content;
+    display: block;
+    padding: 3px 12px;
+    border-radius: 32px;
+    background: $purple;
+
     a {
-        padding: 6px 12px;
-        font-size: 14px;
-        font-weight: 300;
-        border-radius: 32px;
         color: $white;
-        background: $purple;
+        font-size: 12px;
+        font-weight: 300; 
     }
 
     &.dark {
+        background: $dark-gray;
+
         a {
-            color: $light-gray;
-            background: $dark-gray;
+            color: $light-gray; 
+            font-size: 12px;  
+            font-weight: 300;
         }
     }
+
 }

@@ -42,9 +42,11 @@
     <%- include('partials/header') %> 
     <%- include('partials/trending-section')%>
     <%- include('partials/categories-slider') %> 
-    <%- include('partials/recipes-slider', {titleText: "Vegan Food", id:"vegan"}) %>
-    <%- include('partials/recipes-slider', {titleText: "Sauces Food",id:"sauces"}) %> 
-    <%- include('partials/recipes-slider', {titleText: "Food with Beef", id:"beef"}) %>
+    <%- include('partials/recipes-slider', {titleText: "Vegan Food", id:"vegan", path:"/categories/vegan"}) %>
+    <%- include('partials/recipes-slider', {titleText: "Sauces Food",id:"sauces", path: "/categories/sauces"}) %> 
+    <%- include('partials/recipes-slider', {titleText: "Food with Beef", id:"beef", path: "/categories/beef"}) %>
+
+    <%- include('partials/grid-cards') %>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {

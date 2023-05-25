@@ -1,0 +1,9 @@
+<%- include('title', {titleText: "Last recipes updated"}) %>
+
+<section class="grid__container">
+    <div class="grid">
+        <% recipes.forEach(recipe => { %>
+            <%- include('card', {recipe}) %>
+        <% }) %>
+    </div>
+</section>

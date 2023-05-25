@@ -26,7 +26,7 @@ app.set("view engine", "ejs");
 // middlewares
 // app.use(expressLayouts);
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.json());
+app.use(express.json());    
 app.use(express.static(path.join(__dirname, "/public")));
 
 // routes
